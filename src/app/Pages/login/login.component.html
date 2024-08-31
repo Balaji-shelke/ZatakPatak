@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="card">
+        <div class="right">
+            <!--<div style="color: black;">hello</div>-->
+        </div>
+        <div class="left">
+            <h2 class="title">Welcome Back</h2>
+            <p class="subtitle">To keep connected with us please login with your personal info</p>
+            <div class="LoginForm">
+                <form [formGroup]="LoginForm" (ngSubmit)="onSubmit()">
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="text" formControlName="email" class="input-field" />
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" formControlName="password" class="'input-field">
+                    </div>
+                    <div class="forget">Forget Password?</div>
+                    <button class="login-btn" type="submit">Login</button>
+                    <div class="register">Don't have an account?</div>
+<button style="border: none;">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
