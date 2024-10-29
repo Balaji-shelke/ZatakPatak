@@ -28,14 +28,17 @@
 }
 
 
-.title{
-font: 601 35px / 31px Roboto, sans-serif}
+.title {
+    font: 601 35px / 31px Roboto, sans-serif
+}
+
 .left {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     margin: 75px 82px 10px 87px;
+
     .subtitle {
         font-size: smaller;
         font-weight: 600;
@@ -57,7 +60,15 @@ font: 601 35px / 31px Roboto, sans-serif}
         background-color: #FE812F;
         border: none;
         border-radius: 10px;
+margin: 15px 0px;
+cursor: pointer;
     }
+.forget{
+cursor: pointer;
+    border: none;
+    background: none;
+    color: blueviolet;
+    font-size: medium;}
 
     label {
         display: flex;
@@ -71,5 +82,25 @@ font: 601 35px / 31px Roboto, sans-serif}
         background-color: #F5F7F9 !important;
         justify-content: center;
         border: none;
+    }
+
+    .account {
+        display: flex;
+flex-direction: column;
+       
+
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+            color: blueviolet;
+            font-size: medium;
+        }
+.forget{
+margin: 2px 0px 0px 160px;
+}
+.ac{
+display: flex;}
+
     }
 }
